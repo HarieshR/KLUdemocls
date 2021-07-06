@@ -18,6 +18,6 @@ class  Wall {
 };
 
 int main() {
-  Wall wall1;
+  Wall a;
   return 0;
 }
