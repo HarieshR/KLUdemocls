@@ -8,10 +8,8 @@ struct Person {
 };
 
 void displayData(Person);   // Function declaration
-
 int main() {
     Person p;
-
     cout << "Enter Full name: ";
     cin.get(p.name, 50);
     cout << "Enter age: ";
@@ -24,7 +22,6 @@ int main() {
 
     return 0;
 }
-
 void displayData(Person p) {
     cout << "\nDisplaying Information." << endl;
     cout << "Name: " << p.name << endl;
